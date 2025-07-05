@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# 👕 AR Try-On Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**AR Try-On** is a web-based virtual fitting room that allows users to try on clothing using just their **webcam**. The system uses **Augmented Reality (AR)** and **Pose Estimation (AI)** to overlay virtual t-shirts on the user's body in real time — making online shopping more interactive and personalized.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo Features
 
-### `npm start`
+- 👕 **Virtual T-shirt Overlay**: T-shirt appears on your body using AR
+- 🎥 **Real-Time Movement**: Tracks and adjusts to user movement instantly
+- 🤖 **Pose Estimation**: Body detection using PoseNet model
+- 🛒 **Try Before You Buy**: Designed for integration with online stores
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 Core Technologies Used
 
-### `npm test`
+| Technology       | Purpose                           |
+|------------------|-----------------------------------|
+| `React.js`       | Frontend web development (UI)     |
+| `TensorFlow.js`  | AI & machine learning in browser  |
+| `PoseNet`        | Body pose estimation              |
+| `HTML5 Canvas`   | Rendering t-shirt overlay         |
+| `CSS`            | Styling and positioning           |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ How It Works
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Webcam Initialization**: User clicks the “Try It On” button
+2. **PoseNet Activation**: Detects body key points in real-time
+3. **T-Shirt Rendering**: Dynamically overlays a virtual shirt
+4. **Live Tracking**: Adjusts position and scale with user movement
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧪 Challenges & Solutions
 
-### `npm run eject`
+| Issue                          | Solution                       |
+|-------------------------------|--------------------------------|
+| T-shirt not aligned properly  | Adjusted overlay positioning   |
+| Overlay appears off-screen    | Improved real-time calculations|
+| Screenshot capture loopholes  | Future security enhancement    |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔮 Future Enhancements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 🧢 Support for multiple clothing items (hats, jackets, etc.)
+- 🌐 Website integration for real shopping platforms
+- 🧠 Improved AI accuracy with advanced pose tracking
+- 🔐 Security features (like screenshot prevention)
+  
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 👩‍💻 Contributors
 
-## Learn More
+- Ankita Arvind Dagade 
+- Anjali Chavan
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📜 License
 
-### Code Splitting
+This project is open-source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🙌 Thank You!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+We hope AR Try-On transforms your online shopping experience.  
+Feel free to reach out with feedback or suggestions!
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
